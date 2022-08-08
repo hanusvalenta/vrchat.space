@@ -1,0 +1,108 @@
+*, *::before, *::after {
+    font-family: "Bessemer", sans-serif;
+}
+
+@font-face {
+    font-family: "Bessemer";
+    src: url(Fonts/Bessemer-Regular.ttf);
+}
+
+body{
+    background-color: #2c2f33;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 50pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 30pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+p {
+    font-size: 20pt;
+    line-height: 2;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.MainPillar {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    scroll-snap-type: y mandatory;
+}
+
+.All {
+    display: flex;
+    justify-items: center;
+    flex-direction: row-reverse;
+}
+
+.PFPS {
+    background-color: #1e1f20;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PFPS img {
+    border-radius: 50%;
+    padding: 10pt;
+}
+
+.PhotoScreen {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    scroll-snap-align: start;
+
+}
+
+.Buttons {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 25%;
+}
+
+.Buttons img{
+    cursor: pointer;
+}
+
+.button {
+    background-color: rgb(116, 116, 116);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    border: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+  }
+
+  .button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
