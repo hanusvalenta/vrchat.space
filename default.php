@@ -25,10 +25,10 @@
             <h1>Největší CZ/SK VRChat komunita</h1><br>
 
             <div class="Buttons">
-                <a href="https://discord.gg/7nBhzhZaKy"><img alt="" src="images/DiscordButton.png"></a><br>
-                <a href="Socials.php"><img alt="" src="images/SocialsButton.png"></a><br>
-                <a href="Rules.php"><img alt="" src="images/RulesButton.png"></a><br>
-                <a href="Staff.php"><img alt="" src="images/StaffButton.png"></a><br>
+                <a href="https://discord.gg/7nBhzhZaKy"><img alt="" src="Images/DiscordButton.png"></a><br>
+                <a href="Socials.php"><img alt="" src="Images/SocialsButton.png"></a><br>
+                <a href="Rules.php"><img alt="" src="Images/RulesButton.png"></a><br>
+                <a href="Staff.php"><img alt="" src="Images/StaffButton.png"></a><br>
             </div>
 
             <h2>Galery</h2>
