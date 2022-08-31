@@ -47,6 +47,14 @@ p {
     scroll-snap-type: y mandatory;
 }
 
+.Chat {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80pt;
+}
+
 .All {
     display: flex;
     justify-items: center;

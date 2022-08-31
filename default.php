@@ -19,6 +19,7 @@
             <img src="Images/Daszerte.png" width = auto height = "100">
             <img src="Images/Dami.gif" width = auto height = "100">
             <img src="Images/Calmey.gif" width = auto height = "100">
+            <img src="Images/VardaCZ.png" width = auto height = "100">
         </div>
     
 
@@ -30,6 +31,16 @@
                 <a href="Socials.php"><img alt="" src="Images/SocialsButton.png"></a><br>
                 <a href="Rules.php"><img alt="" src="Images/RulesButton.png"></a><br>
                 <a href="Staff.php"><img alt="" src="Images/StaffButton.png"></a><br>
+            </div>
+
+            <div class="Chat">
+            <widgetbot
+             server="837064454357254206"
+            channel="837064454885605386"
+            width="1000"
+            height="800"
+            ></widgetbot>
+            <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
             </div>
 
             <h2>Galery</h2>
