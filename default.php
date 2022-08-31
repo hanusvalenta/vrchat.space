@@ -35,8 +35,9 @@
 
             <div class="Chat">
             <widgetbot
-             server="837064454357254206"
-            channel="837064454885605386"
+            server="795076127961776149"
+            channel="795077211560214649"
+            
             width="1000"
             height="800"
             ></widgetbot>
