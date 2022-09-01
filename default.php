@@ -11,15 +11,18 @@
 </head>
 <body>
     <div class="All">
-        <div class="PFPS">
+        <div class="Boosters">
             <h2>Special thanks to boosters</h2>
-            <img src="Images/ToxwaT.gif" width = auto height = "100">
-            <img src="Images/Paloid.png" width = auto height = "100">
-            <img src="Images/Kaiser Franz.png" width = auto height = "100">
-            <img src="Images/Daszerte.png" width = auto height = "100">
-            <img src="Images/Dami.gif" width = auto height = "100">
-            <img src="Images/Calmey.gif" width = auto height = "100">
-            <img src="Images/VardaCZ.png" width = auto height = "100">
+
+            <div class="BSTPFP">
+                <img src="Images/ToxwaT.gif" width = auto height = "100">
+                <img src="Images/Paloid.png" width = auto height = "100">
+                <img src="Images/Franz.png" width = auto height = "100">
+                <img src="Images/Daszerte.png" width = auto height = "100">
+                <img src="Images/Dami.gif" width = auto height = "100">
+                <img src="Images/Calmey.gif" width = auto height = "100">
+                <img src="Images/VardaCZ.png" width = auto height = "100">
+            </div>
         </div>
     
 
@@ -42,16 +45,6 @@
             height="800"
             ></widgetbot>
             <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
-            </div>
-
-            <h2>Galery</h2>
-            <div class="PhotoScreen">
-                <img src="Images/People1.png" width = auto height = "300">
-                <img src="Images/People2.png" width = auto height = "300">
-                <img src="Images/People3.png" width = auto height = "300">
-                <img src="Images/People4.png" width = auto height = "300">
-                <img src="Images/People5.png" width = auto height = "300">
-                <img src="Images/People6.png" width = auto height = "300">
             </div>
         </div>
     </div>

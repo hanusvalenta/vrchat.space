@@ -1,10 +1,10 @@
 *, *::before, *::after {
-    font-family: "Bessemer", sans-serif;
+    font-family: "Agency", sans-serif;
 }
 
 @font-face {
-    font-family: "Bessemer";
-    src: url(Fonts/Bessemer-Regular.ttf);
+    font-family: "Agency";
+    src: url(Fonts/AgencyFB-Bold.ttf);
 }
 
 body{
@@ -58,29 +58,41 @@ p {
 .All {
     display: flex;
     justify-items: center;
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    align-items: center;
 }
 
-.PFPS {
+.Boosters {
     background-color: #1e1f20;
     display: flex;
     padding: 20px;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
-.PFPS img {
+.Boosters h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.Boosters img {
     border-radius: 50%;
     padding: 10pt;
 }
 
-.PhotoScreen {
+.BSTPFP {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    scroll-snap-align: start;
+    align-items: center;
+}
 
+.PhotoScreen {
+    display: flex;
+    scroll-snap-align: start;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .Buttons {
