@@ -39,6 +39,10 @@ p {
     padding: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .MainPillar {
     display: flex;
     justify-items: center;
@@ -108,21 +112,45 @@ p {
     cursor: pointer;
 }
 
-.button {
-    background-color: rgb(116, 116, 116);
-    color: rgb(0, 0, 0);
-    text-align: center;
-    transition-duration: 0.3s;
+button {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #6e6e6e;
+    border-radius: 0.6em;
+    color: #6e6e6e;
     cursor: pointer;
-    border: none;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 70px;
-    padding-right: 70px;
-    font-size: 20px;
-  }
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
 
-  .button:hover {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-  }
+button:hover {
+    box-shadow: 0 0 10px 0 #6e6e6e inset, 0 0 10px 4px #6e6e6e;
+}
+
+.normalbutton {
+    border-color: #6e6e6e;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #6e6e6e inset, 0 0 0 0 #6e6e6e;
+    transition: all 150ms ease-in-out;
+}
+
+.bluebutton{
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    transition: all 150ms ease-in-out;
+}
+
+.bluebutton:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}

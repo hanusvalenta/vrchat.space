@@ -1,0 +1,12 @@
+*, *::before, *::after {
+    font-family: "Agency", sans-serif;
+}
+
+@font-face {
+    font-family: "Agency";
+    src: url(Fonts/AgencyFB-Bold.ttf);
+}
+
+body{
+    background-color: #2c2f33;
+}

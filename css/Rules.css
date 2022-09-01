@@ -1,10 +1,10 @@
 *, *::before, *::after {
-    font-family: "Bessemer", sans-serif;
+    font-family: "Agency", sans-serif;
 }
 
 @font-face {
-    font-family: "Bessemer";
-    src: url(Fonts/Bessemer-Regular.ttf);
+    font-family: "Agency";
+    src: url(Fonts/AgencyFB-Bold.ttf);
 }
 
 body{
