@@ -9,6 +9,10 @@
     <title>Socials</title>
 </head>
 <body>
-    <p>test</p>
+    <a href="https://www.instagram.com/vrchatczsk/"><button class="button normalbutton"></button>Instagram</a>
+    <a href="https://www.reddit.com/r/vrchatczsk/"><button class="button normalbutton"></button>Reddit</a>
+    <a href="https://steamcommunity.com/groups/vrcskcz"><button class="button normalbutton"></button>Steam</a>
+    <a href="https://www.tiktok.com/@vrchatczsk?lang=cs-CZ"><button class="button normalbutton"></button>TikTok</a>
+    <a href="https://www.youtube.com/channel/UCJzqtdmyW0lzH1_WJ32WHzg"><button class="button normalbutton"></button>Youtube</a>
 </body>
 </html>
