@@ -24,6 +24,21 @@
                 <a href="Staff.php"><button class="button normalbutton">Staff</button></a>
             </div>
 
+            <div class="MouseIcon">
+                <div class="mouse_scroll">
+                    <div class="mouse">
+                        <div class="wheel">
+
+                        </div>
+                    </div>
+                    <div>
+                            <span class="m_scroll_arrows unu"></span>
+                            <span class="m_scroll_arrows doi"></span>
+                            <span class="m_scroll_arrows trei"></span>
+                    </div>
+                </div>
+            </div>
+
             <div class="Chat">
                 <widgetbot
                 server="795076127961776149"
