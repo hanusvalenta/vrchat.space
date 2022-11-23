@@ -18,7 +18,7 @@
 <body>
     <div class="All">
         <div class=MainPillar>
-            <h1>Největší CZ/SK VRChat komunita</h1><br>
+            <h1>Největší CZ/SK VR komunita</h1><br>
 
             <div class="Buttons">
                 <a href="https://discord.gg/7nBhzhZaKy"><button class="button bluebutton">Discord</button></a>
