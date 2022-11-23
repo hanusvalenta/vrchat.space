@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style> body 
+    {
+    background-image: url("Images/Background.jpeg");
+    }
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +14,7 @@
     <title>Galery</title>
 </head>
 <body>
-    <h2>Galery</h2>
+    <h2>Galerie</h2>
     <div class="PhotoScreen">
         <img src="Images/People1.png" width = auto height = "300">
         <img src="Images/People4.png" width = auto height = "300">

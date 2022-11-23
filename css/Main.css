@@ -1,13 +1,14 @@
 *, *::before, *::after {
-    font-family: "Agency", sans-serif;
+    font-family: "poppins", sans-serif;
 }
 
 @font-face {
-    font-family: "Agency";
+    font-family: "poppins";
     src: url(Fonts/AgencyFB-Bold.ttf);
 }
 
 body{
+    /*background-image: url("Images/Background.jpeg");*/
     background-color: #2c2f33;
 }
 

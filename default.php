@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style> body 
+    {
+    background-image: url("Images/Background.jpeg");
+    }
+    </style>
     <link href="node_modules/lightbox2/src/css/lightbox.css" rel="stylesheet" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6892974490326559"crossorigin="anonymous"></script>
     <meta charset="UTF-8">
@@ -17,10 +22,10 @@
 
             <div class="Buttons">
                 <a href="https://discord.gg/7nBhzhZaKy"><button class="button bluebutton">Discord</button></a>
-                <a href="Socials.php"><button class="button normalbutton">Socials</button></a>
-                <a href="Galery.php"><button class="button normalbutton">Galery</button></a>
-                <a href="Rules.php"><button class="button normalbutton">Rules</button></a>
-                <a href="Staff.php"><button class="button normalbutton">Staff</button></a>
+                <a href="Socials.php"><button class="button normalbutton">Kde nás najdete</button></a>
+                <a href="Galery.php"><button class="button normalbutton">Galerie</button></a>
+                <a href="Rules.php"><button class="button normalbutton">Pravidla</button></a>
+                <a href="Staff.php"><button class="button normalbutton">Personál</button></a>
             </div>
 
             <div class="MouseIcon">
@@ -50,7 +55,7 @@
             </div>
 
             <div class="Boosters">
-                <h2>Special thanks to boosters</h2>
+                <h2>Zvláštní poděkování boosterům</h2>
 
                 <div class="BSTPFP">
                     <a href="https://cdn.discordapp.com/avatars/416262848067534848/66258a0abb4c8a6eee9b319d8e836a55.png?size=1024" data-lightbox="Boosters">
