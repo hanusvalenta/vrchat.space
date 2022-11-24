@@ -94,6 +94,9 @@
                     <a href="https://cdn.discordapp.com/avatars/395985012866023425/5ada6383d22594fd22d5689de43d45ba.png?size=1024" data-lightbox="Boosters">
                         <img src="https://cdn.discordapp.com/avatars/395985012866023425/5ada6383d22594fd22d5689de43d45ba.png?size=1024" width = auto height = "100">
                     </a>
+                    <a href="https://cdn.discordapp.com/avatars/623953982095622204/6cd70bcd4a3e12963acb81a1418a5004.png?size=1024" data-lightbox="Boosters">
+                        <img src="https://cdn.discordapp.com/avatars/623953982095622204/6cd70bcd4a3e12963acb81a1418a5004.png?size=1024" width = auto height = "100">
+                    </a>
                 </div>
             </div>
         </div>
