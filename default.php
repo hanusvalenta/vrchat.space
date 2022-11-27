@@ -51,7 +51,7 @@
                 width="1000"
                 height="800"
                 ></widgetbot>
-                <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+                <script src="Scripts/DiscordChat.js"></script>
             </div>
 
             <div class="Boosters">
