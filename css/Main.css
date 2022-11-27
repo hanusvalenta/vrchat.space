@@ -89,9 +89,11 @@ a {
 }
 
 .BSTPFP {
+    width: 800pt;
     display: flex;
     flex-direction: row;
     align-items: center;
+    overflow-x: scroll;
 }
 
 .PhotoScreen {
