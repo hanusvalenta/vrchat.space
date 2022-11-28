@@ -106,11 +106,9 @@ a {
 
 .Buttons {
     display: flex;
-    padding: 10px;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-bottom: 2%;
 }
 
 .Buttons img{
@@ -168,17 +166,16 @@ button:hover {
 .mouse_scroll {
 	display: block;
 	margin: 0 auto;
-	width: 24px;
-	height: 100px;
-	margin-top: 125px;
+	margin-top: 90pt;
+  margin-bottom: 100%;
 }
 
 .m_scroll_arrows {
   display: block;
   width: 5px;
   height: 5px;
-  -ms-transform: rotate(45deg); /* IE 9 */
-  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
    
   border-right: 2px solid white;
@@ -189,17 +186,17 @@ button:hover {
   height: 16px;
 }
 
-.unu {
+.One {
   margin-top: 1px;
 }
 
-.unu, .doi, .trei {
+.One, .Two, .Three {
     -webkit-animation: mouse-scroll 1s infinite;
     -moz-animation: mouse-scroll 1s infinite;
     animation: mouse-scroll 1s infinite;
 }
 
-.unu {
+.One {
   -webkit-animation-delay: .1s;
   -moz-animation-delay: .1s;
   -webkit-animation-direction: alternate;
@@ -208,7 +205,7 @@ button:hover {
   animation-delay: alternate;
 }
 
-.doi {
+.Two {
   -webkit-animation-delay: .2s;
   -moz-animation-delay: .2s;
   -webkit-animation-direction: alternate;
@@ -219,7 +216,7 @@ button:hover {
   margin-top: -6px;
 }
 
-.trei {
+.Three {
   -webkit-animation-delay: .3s;
   -moz-animation-delay: .3s;
   -webkit-animation-direction: alternate;

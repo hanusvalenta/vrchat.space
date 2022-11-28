@@ -36,9 +36,9 @@
                         </div>
                     </div>
                     <div>
-                            <span class="m_scroll_arrows unu"></span>
-                            <span class="m_scroll_arrows doi"></span>
-                            <span class="m_scroll_arrows trei"></span>
+                            <span class="m_scroll_arrows One"></span>
+                            <span class="m_scroll_arrows Two"></span>
+                            <span class="m_scroll_arrows Three"></span>
                     </div>
                 </div>
             </div>
