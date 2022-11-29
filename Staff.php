@@ -81,7 +81,7 @@
             <div class="StaffInfo">
                 <h2>Zorky</h2>
                 <p>✨️🐾ayoo🐾✨️</p>
-                <p>SK</p>
+                <p>CZ</p>
             </div>
         </div>
     </div>
@@ -98,7 +98,7 @@
             </div>
         </div>
         <div class="Staff">
-            <a href="Images/Staff/Adamage.png" data-lightbox="Staff" data-title="">
+            <a href="Images/Staff/Adamage.png" data-lightbox="Staff" data-title="Adamage">
                 <img src="Images/Staff/Adamage.png" width = auto height = "100">
             </a>
             <div class="StaffInfo">
