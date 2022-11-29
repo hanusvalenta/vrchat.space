@@ -15,11 +15,11 @@
 </head>
 <body>
     <div class="Main">
-        <a href="https://www.instagram.com/vrchatczsk/"><button class="button normalbutton">Instagram</button></a>
-        <a href="https://www.reddit.com/r/vrchatczsk/"><button class="button normalbutton">Reddit</button></a>
-        <a href="https://steamcommunity.com/groups/vrcskcz"><button class="button normalbutton">Steam</button></a>
-        <a href="https://www.tiktok.com/@vrchatczsk?lang=cs-CZ"><button class="button normalbutton">TikTok</button></a>
-        <a href="https://www.youtube.com/channel/UCJzqtdmyW0lzH1_WJ32WHzg"><button class="button normalbutton">Youtube</button></a>
+        <a href="https://www.instagram.com/vrchatczsk/"><button class="button instabutton">Instagram</button></a>
+        <a href="https://www.reddit.com/r/vrchatczsk/"><button class="button reddbutton">Reddit</button></a>
+        <a href="https://steamcommunity.com/groups/vrcskcz"><button class="button stebutton">Steam</button></a>
+        <a href="https://www.tiktok.com/@vrchatczsk?lang=cs-CZ"><button class="button tikbutton">TikTok</button></a>
+        <a href="https://www.youtube.com/channel/UCJzqtdmyW0lzH1_WJ32WHzg"><button class="button youbutton">Youtube</button></a>
     </div>
 </body>
 </html>

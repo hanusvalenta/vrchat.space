@@ -48,9 +48,9 @@ button {
     box-sizing: border-box;
     appearance: none;
     background-color: transparent;
-    border: 2px solid #6e6e6e;
+    border: 2px solid #ffffff;
     border-radius: 0.6em;
-    color: #6e6e6e;
+    color: #ffffff;
     cursor: pointer;
     display: flex;
     align-self: center;
@@ -66,23 +66,83 @@ button {
 }
 
 button:hover {
-    box-shadow: 0 0 10px 0 #6e6e6e inset, 0 0 10px 4px #6e6e6e;
+    box-shadow: 0 0 10px 0 #ffffff inset, 0 0 10px 4px #ffffff;
+    color: rgb(255, 255, 255);
 }
 
 .normalbutton {
-    border-color: #6e6e6e;
-    color: #fff;
-    box-shadow: 0 0 40px 40px #6e6e6e inset, 0 0 0 0 #6e6e6e;
+    border-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 40px 40px #ffffff inset, 0 0 0 0 #ffffff;
     transition: all 150ms ease-in-out;
 }
 
-.bluebutton{
-    border-color: #3498db;
-    color: #fff;
-    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+.instabutton{
+    border-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 40px 40px #ffffff inset, 0 0 0 0 #ffffff;
     transition: all 150ms ease-in-out;
 }
 
-.bluebutton:hover {
-    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+.instabutton:hover {
+    border-color: #ff9035;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 0 #ff9035 inset, 0 0 10px 4px #ff9035;
+    transition: all 150ms ease-in-out;
+}
+
+.reddbutton{
+    border-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 40px 40px #ffffff inset, 0 0 0 0 #ffffff;
+    transition: all 150ms ease-in-out;
+}
+
+.reddbutton:hover {
+    border-color: #e94200;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 0 #e94200 inset, 0 0 10px 4px #e94200;
+    transition: all 150ms ease-in-out;
+}
+
+.stebutton{
+    border-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 40px 40px #ffffff inset, 0 0 0 0 #ffffff;
+    transition: all 150ms ease-in-out;
+}
+
+.stebutton:hover {
+    border-color: #17477e;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 0 #17477e inset, 0 0 10px 4px #17477e;
+    transition: all 150ms ease-in-out;
+}
+
+.tikbutton{
+    border-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 40px 40px #ffffff inset, 0 0 0 0 #ffffff;
+    transition: all 150ms ease-in-out;
+}
+
+.tikbutton:hover {
+    border-color: #000000;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 0 #000000 inset, 0 0 10px 4px #000000;
+    transition: all 150ms ease-in-out;
+}
+
+.youbutton{
+    border-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 40px 40px #ffffff inset, 0 0 0 0 #ffffff;
+    transition: all 150ms ease-in-out;
+}
+
+.youbutton:hover {
+    border-color: #e70000;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 0 #e70000 inset, 0 0 10px 4px #e70000;
+    transition: all 150ms ease-in-out;
 }
