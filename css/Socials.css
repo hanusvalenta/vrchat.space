@@ -77,6 +77,14 @@ button:hover {
     transition: all 150ms ease-in-out;
 }
 
+:root {
+    --insta-color: #ff9035;
+    --redd-color: #e94200;
+    --ste-color: #17477e;
+    --tik-color: #000000;
+    --you-color: #e70000;
+}
+
 .instabutton{
     border-color: #ffffff;
     color: rgb(0, 0, 0);
@@ -85,9 +93,9 @@ button:hover {
 }
 
 .instabutton:hover {
-    border-color: #ff9035;
+    border-color: var(--insta-color);
     color: rgb(255, 255, 255);
-    box-shadow: 0 0 10px 0 #ff9035 inset, 0 0 10px 4px #ff9035;
+    box-shadow: 0 0 10px 0 var(--insta-color) inset, 0 0 10px 4px var(--insta-color);
     transition: all 150ms ease-in-out;
 }
 
@@ -99,9 +107,9 @@ button:hover {
 }
 
 .reddbutton:hover {
-    border-color: #e94200;
+    border-color: var(--redd-color);
     color: rgb(255, 255, 255);
-    box-shadow: 0 0 10px 0 #e94200 inset, 0 0 10px 4px #e94200;
+    box-shadow: 0 0 10px 0 var(--redd-color) inset, 0 0 10px 4px var(--redd-color);
     transition: all 150ms ease-in-out;
 }
 
@@ -113,9 +121,9 @@ button:hover {
 }
 
 .stebutton:hover {
-    border-color: #17477e;
+    border-color: var(--ste-color);
     color: rgb(255, 255, 255);
-    box-shadow: 0 0 10px 0 #17477e inset, 0 0 10px 4px #17477e;
+    box-shadow: 0 0 10px 0 var(--ste-color) inset, 0 0 10px 4px var(--ste-color);
     transition: all 150ms ease-in-out;
 }
 
@@ -127,9 +135,9 @@ button:hover {
 }
 
 .tikbutton:hover {
-    border-color: #000000;
+    border-color: var(--tik-color);
     color: rgb(255, 255, 255);
-    box-shadow: 0 0 10px 0 #000000 inset, 0 0 10px 4px #000000;
+    box-shadow: 0 0 10px 0 var(--tik-color) inset, 0 0 10px 4px var(--tik-color);
     transition: all 150ms ease-in-out;
 }
 
@@ -141,8 +149,8 @@ button:hover {
 }
 
 .youbutton:hover {
-    border-color: #e70000;
+    border-color: var(--you-color);
     color: rgb(255, 255, 255);
-    box-shadow: 0 0 10px 0 #e70000 inset, 0 0 10px 4px #e70000;
+    box-shadow: 0 0 10px 0 var(--you-color) inset, 0 0 10px 4px var(--you-color);
     transition: all 150ms ease-in-out;
 }
