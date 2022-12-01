@@ -43,3 +43,11 @@ h2 {
     flex-direction: column;
     align-items: center;
 }
+
+.PhotoScreen {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+}
