@@ -1,4 +1,3 @@
-<?php include "DbConn.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,19 +16,8 @@
 <body>
     <h2>Galerie</h2>
 
-    <div class="">
-        <?php
-            $sql = "SELECT * FROM images ORDER BY id DESC";
-            $res = mysqli_query($conn, $sql);
-
-            if (mysqli_num_rows($res) > 0) {
-                while ($images = mysqli_fetch_assoc($res)) { ?>
-
-                <div>
-                    <img src="UserUploaded/<?=$images["ImageURL"]?>">
-                </div>
-
-        <?php } }?>
+    <div class="PhotoScreen">
+        
     </div>
 </body>
 </html>
