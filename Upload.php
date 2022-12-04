@@ -1,3 +1,24 @@
+<?php
+
+$servername = "localhost";
+$username = "username";
+$password = "";
+$dbname = "galery";
+ 
+$conn = mysqli_connect($servername,
+    $username, $password, $dbname);
+
+if (isset($_POST["upload"])) {
+
+    $query = "INSERT INTO images VALUES('', 'filename')";
+
+    $res = mysqli_query($conn, $query);
+
+    if ($res) {
+        move_uploaded_file($filename, $UserUploaded);
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +35,9 @@
     <title>Upload</title>
 </head>
 <body>
-    
+    <form method="post">
+        <input type="file" name="file">
+        <input type="submit" name="upload" value="Nahrát">
+    </form>
 </body>
 </html>
