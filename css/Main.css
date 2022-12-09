@@ -84,6 +84,7 @@ a {
 }
 
 .Boosters img {
+  height: 75pt;
     border-radius: 50%;
     padding: 10pt;
 }

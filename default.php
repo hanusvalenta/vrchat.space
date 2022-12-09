@@ -1,3 +1,14 @@
+<?php
+
+$connect = mysqli_connect("localhost", "root", "", "galery");
+
+if (!$connect) 
+{
+    echo "Error Code: " . mysqli_connect_errno() . "<br>";
+    echo "Error Message: " . mysqli_connect_error() . "<br>";
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,52 +69,22 @@
                 <h2>Zvláštní poděkování boosterům</h2>
 
                 <div class="BSTPFP">
-                    <a href="Images/Boosters/Benny.gif" data-lightbox="Boosters" data-title="Benny">
-                        <img src="Images/Boosters/Benny.gif" width = auto height = "100">
-                    </a>
-                    <a href="Images/Boosters/Calmey.gif" data-lightbox="Boosters" data-title="Calmey">
-                        <img src="Images/Boosters/Calmey.gif" width = auto height = "100">
-                    </a>
-                    <a href="Images/Boosters/coffinkat.png" data-lightbox="Boosters" data-title="Coffincat">
-                        <img src="Images/Boosters/coffinkat.png" width = auto height = "100">
-                    </a>
-                    <a href="Images/Boosters/Daszerte.png" data-lightbox="Boosters" data-title="Daszerte">
-                        <img src="Images/Boosters/Daszerte.png" width = auto height = "100">
-                    </a>
-                    <a href="Images/Boosters/Evie.png" data-lightbox="Boosters" data-title="Evie">
-                        <img src="Images/Boosters/Evie.png" width = auto height = "100">
-                    </a>
-                    <a href="Images/Boosters/GLOWE3Y.gif" data-lightbox="Boosters" data-title="Glowe3y">
-                        <img src="Images/Boosters/GLOWE3Y.gif" width = auto height = "100">
-                    </a>
-                    <a href="Images/Boosters/Goald.png" data-lightbox="Boosters" data-title="Goald">
-                        <img src="Images/Boosters/Goald.png" width = auto height = "100">
-                    </a>
-                    <a href="Images/Boosters/Kaiser.png" data-lightbox="Boosters" data-title="Kaiser">
-                        <img src="Images/Boosters/Kaiser.png" width = auto height = "100">
-                    </a>
-                    <a href="Images/Boosters/nikí.png" data-lightbox="Boosters" data-title="Niki">
-                        <img src="Images/Boosters/nikí.png" width = auto height = "100">
-                    </a>
-                    <a href="Images/Boosters/Ouchyč.gif" data-lightbox="Boosters" data-title="Ouchyc">
-                        <img src="Images/Boosters/Ouchyč.gif" width = auto height = "100">
-                    </a>
-                    <a href="Images/Boosters/Paloid.png" data-lightbox="Boosters" data-title="Paloid">
-                        <img src="Images/Boosters/Paloid.png" width = auto height = "100">
-                    </a>
-                    <a href="Images/Boosters/Shinda Yunikón.png" data-lightbox="Boosters" data-title="Shinda Yunikon">
-                        <img src="Images/Boosters/Shinda Yunikón.png" width = auto height = "100">
-                    </a>
-                    <a href="Images/Boosters/ToxwaT.png" data-lightbox="Boosters" data-title="Toxwat">
-                        <img src="Images/Boosters/ToxwaT.png" width = auto height = "100">
-                    </a>
-                    <a href="Images/Boosters/VardaCZ.png" data-lightbox="Boosters" data-title="VardaCZ">
-                        <img src="Images/Boosters/VardaCZ.png" width = auto height = "100">
-                    </a>
-                    <a href="Images/Boosters/Vesi.png" data-lightbox="Boosters" data-title="Vesi">
-                        <img src="Images/Boosters/Vesi.png" width = auto height = "100">
-                    </a>
-                    
+                    <?php
+
+                    $query = 'SELECT id,Filename
+                        FROM boosters
+                        ORDER BY Filename';
+
+                    $result = mysqli_query($connect, $query);
+
+                    while ($record = mysqli_fetch_assoc($result))
+                    {
+                        echo '
+                        <a href="Images/Boosters/'.$record["Filename"].'" data-lightbox="Boosters" data-title="'.$record["Filename"].'">
+                            <img src="Images/Boosters/'.$record["Filename"].'" width = auto height = 500pt>
+                        </a>';
+                    }
+                    ?>
                 </div>
             </div>
         </div>
