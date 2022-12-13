@@ -21,7 +21,7 @@ if (!$connect)
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6892974490326559"crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover">
     <link rel="stylesheet" href="css/Main.css">
     <link rel="shortcut icon" href="Images/ServerLogoTrans.ico">
     <title>Welcome to VR</title>
@@ -29,7 +29,9 @@ if (!$connect)
 <body>
     <div class="All">
         <div class=MainPillar>
-            <h1>Největší CZ/SK VR komunita</h1><br>
+            <div class="HeadLine">
+                <h1>Největší CZ/SK VR komunita</h1><br>
+            </div>
 
             <div class="Buttons">
                 <a href="https://discord.gg/7nBhzhZaKy"><button class="button bluebutton">Discord</button></a>
