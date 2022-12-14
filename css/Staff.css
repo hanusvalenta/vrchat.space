@@ -60,6 +60,24 @@ p {
     border-style: solid;
     border-color: #ffffff;
 }
+
+@media screen and (max-width: 1023px) {
+.Staff {
+    background-color: #1e1f20;
+    display: flex;
+    flex-direction: row;
+    width: 250pt;
+    flex-wrap: nowrap;
+    align-content: center;
+    margin: 10pt;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1pt;
+    border-style: solid;
+    border-color: #ffffff;
+    overflow-x: scroll;
+}
+}
     
 .StaffShowcase {
     display: flex;

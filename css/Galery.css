@@ -52,6 +52,17 @@ h2 {
     align-content: space-around;
 }
 
+.PhotoScreen img {
+    padding: 10pt;
+}
+
+@media screen and (max-width: 1023px) {
+    .PhotoScreen img {
+      width: 60vh;
+      height: auto;
+    }
+  }
+
 button {
     box-sizing: border-box;
     appearance: none;

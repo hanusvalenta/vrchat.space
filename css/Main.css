@@ -1,9 +1,3 @@
-/*@media screen and (max-width: 425px) {
-  . {
-    
-  }
-}*/
-
 *, *::before, *::after {
     font-family: "poppins", sans-serif;
 }
@@ -27,10 +21,10 @@ h1 {
     align-items: center;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1023px) {
   h1 {
     color: #ffffff;
-    font-size: 40pt;
+    font-size: 17pt;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -70,7 +64,7 @@ a {
   align-items: center;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1023px) {
   .MainPillar {
     display: flex;
     justify-items: center;
@@ -97,7 +91,7 @@ a {
     margin-bottom: 80pt;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1023px) {
   .Chat {
     visibility: hidden;
     width: 0pt;
@@ -125,7 +119,7 @@ a {
     
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1023px) {
   .Boosters {
     width: 45vh;
     height: auto;
@@ -157,7 +151,7 @@ a {
     overflow-x: scroll;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1023px) {
   h2 {
     color: #ffffff;
     font-size: 20pt;
@@ -243,7 +237,7 @@ button:hover {
     justify-content: flex-end;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1023px) {
   .MouseIcon {
     visibility: hidden;
     width: 0pt;
