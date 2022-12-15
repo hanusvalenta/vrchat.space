@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Dec 09, 2022 at 08:24 PM
+-- Generation Time: Dec 15, 2022 at 05:34 PM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `images` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `Filename` varchar(128) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `images`
@@ -40,15 +40,13 @@ CREATE TABLE IF NOT EXISTS `images` (
 
 INSERT INTO `images` (`id`, `Filename`) VALUES
 (2, 'Foto1.png'),
-(3, 'Foto2.png'),
-(4, 'Foto3.png'),
 (5, 'Foto4.png'),
 (6, 'Foto5.png'),
 (7, 'Foto6.png'),
 (8, 'Foto7.png'),
 (9, 'Foto8.png'),
 (10, 'Foto9.png'),
-(11, 'Foto10.png');
+(13, 'Foto10.png');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
