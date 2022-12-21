@@ -110,7 +110,7 @@ a {
 
 .Boosters {
     width: 95vh;
-    border-radius: 3%;
+    border-radius: 0.6em;
     background-color: #1e1f20;
     display: flex;
     padding: 20px;
@@ -123,7 +123,7 @@ a {
   .Boosters {
     width: 45vh;
     height: auto;
-    border-radius: 3%;
+    border-radius: 0.6em;
     background-color: #1e1f20;
     display: flex;
     padding: 20px;

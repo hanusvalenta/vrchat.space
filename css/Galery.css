@@ -54,6 +54,7 @@ h2 {
 
 .PhotoScreen img {
     padding: 10pt;
+    border-radius: 0.6em;
 }
 
 @media screen and (max-width: 1023px) {
