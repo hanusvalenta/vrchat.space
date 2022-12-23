@@ -21,6 +21,18 @@ h1 {
     align-items: center;
 }
 
+@media screen and (max-width: 1023px) {
+h1 {
+    color: #ffffff;
+    font-size: 25pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+    }
+}
+
 p {
     font-size: 20pt;
     line-height: 2;
